@@ -21,30 +21,30 @@ User initiates a file upload request through the UI.
 The UI forwards the request to the File Management Service.
 The File Management Service validates user credentials through the Authorization & Authentication Service.
 If authorized, the File Management Service stores the file on an available Storage Node.
-The File Management Service updates the file metadata in the Metadata Server.
+The File Management Service updates the file metadata in the Metadata Server.<br>
 **File Download:**
 User initiates a file download request through the UI.
 The UI forwards the request to the File Management Service.
 The File Management Service verifies user credentials and retrieves file metadata from the Metadata Server.
 The File Management Service identifies the appropriate Storage Node containing the requested file data.
-The File Management Service retrieves the file from the Storage Node and sends it back to the UI for download.
+The File Management Service retrieves the file from the Storage Node and sends it back to the UI for download.<br>
 **File Sharing:**
 User initiates a file sharing request through the UI, specifying the recipients.
 The UI forwards the request to the File Management Service.
 The File Management Service validates the user's credentials and permissions.
 If authorized, the File Management Service generates a shareable link with appropriate access permissions and sends it to the recipients.
-Recipients can use the link to access the shared file.
+Recipients can use the link to access the shared file.<br>
 **Data Flow:**
 User interacts with the User Interface to perform file-related operations.
 The User Interface forwards requests to the File Management Service for processing.
 The File Management Service interacts with the Metadata Server to store and retrieve file metadata.
 The Authorization & Authentication Service verifies user credentials and permissions.
 The File Management Service communicates with the Replication Manager to ensure data replication for fault tolerance.
-File data flows between the File Management Service and the Storage Nodes for storage and retrieval.
+File data flows between the File Management Service and the Storage Nodes for storage and retrieval.<br>
 
 ## DIAGRAM REPRESENTATION:
 
-![Alt text](D1-1.png)
+![Alt text](D1.png)
  
 
 Functions in FLOW
