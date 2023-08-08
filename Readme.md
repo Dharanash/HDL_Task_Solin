@@ -47,8 +47,8 @@ File data flows between the File Management Service and the Storage Nodes for st
 ![Alt text](D1.png)
  
 
-Functions in FLOW
-Uploading File:
+## Functions in FLOW<br>
+**Uploading File:**
 - User interacts with the User Interface to upload a file.
 - User Interface forwards the upload request to the File Management Service.
 - File Management Service communicates with the Metadata Server to store file metadata.
@@ -56,7 +56,7 @@ Uploading File:
 - Replication Manager coordinates with Storage Nodes to store file data across multiple node
 ![Title](D3.png)
 
-Downloading Files:
+**Downloading Files:**
 - User requests to download a file via the User Interface.
 - User Interface sends the download request to the File Management Service.
 - File Management Service interacts with the Metadata Server to retrieve file metadata.
@@ -64,7 +64,7 @@ Downloading Files:
 - User Interface receives the file data from the File Management Service for download
 ![Title](D2.png)
 
-Sharing Files:
+**Sharing Files:**
 - User interacts with the User Interface to share a file, specifying recipient details.
 - User Interface forwards the sharing request to the File Management Service.
 - File Management Service updates file metadata by communicating with the Metadata Server.
