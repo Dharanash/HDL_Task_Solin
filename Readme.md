@@ -74,8 +74,6 @@ File data flows between the File Management Service and the Storage Nodes for st
 
 
 
-adfwanet
-
 
 
 
